@@ -1,0 +1,82 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #ADEFD1; 
+ text-align: center
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+p {
+  color: #00203F;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* STYLE IMAGES */
+#christmas {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border: 5px solid white;
+}
+
+#dorothy {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border: 5px solid white;
+}
+
+#personalityquiz {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  border: 5px solid white;
+}
+
+#mentalhealth {
+  border-radius: 25px;
+  width: 55%;
+  border: 5px solid white;
+}
+
+/*Navigation Bar*/
+.navbar {
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+.navbar li {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  background-color: white;
+}
+.navbar li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  background-color: lightgray;
+}
